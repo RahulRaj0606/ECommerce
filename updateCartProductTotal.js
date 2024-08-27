@@ -15,5 +15,7 @@ export const updateCartProductTotal = () => {
 
     productSubTotal.textContent = `₹${totalProductPrice}`;
     productFinalTotal.textContent = `₹${totalProductPrice + 50}`;
+    console.log(productFinalTotal);
+    
     
 };
